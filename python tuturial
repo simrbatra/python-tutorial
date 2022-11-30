@@ -1,0 +1,150 @@
+#print function 
+print("hello")
+print('hello')
+
+#escape function 
+print("lineA\nlineB")
+print("lineA\tlineB")
+print("lineA\blineB")
+print("lineA\\")          *single quote
+print("lineB\\\\")        *double quotes
+
+#python as calculator
+print("2+3")
+print("2-3")
+print("2*3")
+print("4/2")
+print("4//2")
+print("2**3**2")
+print("(2*3)*4/2")
+
+#variables
+name="harshit"
+print(name)
+
+#naming rules for variable
+|name="harshit"                 Error
+name|="harshit"                 no Error
+name$="harshit"                 Error
+$name="harshit"                 Error
+_name="harshit"                 no error
+
+#convection for variable naming 
+user_one="harshit"              snake case
+userOne="harshit"               camel case
+
+#strings
+name="harshit" 
+
+#string indexing
+print(name[-1])
+
+#string slicing
+print(name[-1:0:-1]) 
+
+#take user input
+age=int(input(enter your agr : "")) #strings
+print(age)
+
+#take two user inputs
+#user_name, age = input("enter your name and age : ").split(",")
+print(user_name)
+print(age)
+
+#len function
+print(len(name))
+
+#lower, upper, tittle method
+print(name.title())
+
+#find, replace, centermethod
+r_pos = name.find("r")
+r_pos_2 = name.find("r", r_pos + 1)
+print(r_pos_2)
+print(name.replace("h,H"1))
+print(name)
+
+#if statement
+age = input ("enter your age : ")
+age = int(age)
+if age >=14:
+    print("line a ")
+    print("you are above 14")
+
+#if or else statement
+age=input("enter your age : ")  
+age=int(age) 
+if age >=14:
+    print("line a ")
+    print("you are above 14")
+else:
+    print("sorry you can't play")
+
+#and,or
+name='abc'
+age=19
+if name=='abcd' and age==19:
+    print("condition True")
+else:
+    print("condition False")
+
+ name='abc'
+ age=23
+ if name=='abcd' or age==23
+ print("condition True")
+ else:
+    print("conditon False")
+
+#if-elif-else
+age = input("please input your age : ")
+age = int(age)
+
+if age==0:
+    print("you can't watch")
+if 0<age<3:
+    print("Ticket price : Free")
+elif 3<age<=10:
+    print("Ticket price : 150")
+elif 10<age<=60:
+    print("Ticket price: 250")
+ else:
+    print("Ticket price: 200")
+
+#in keyword
+name="harshit"
+if 'h'in "harshit":
+    print("H is present in name")
+ else:
+    print("not present")
+
+#check empty or not
+name =  input("enter your name: ")
+if name :# true if string is not empty 
+    print(f"your name is {name}")
+else:
+    print("you didn't type anything")
+
+#while loop
+i=1
+while i<=10:
+    print("hello world")
+    i=i+1
+#sum program with while loop
+total=0
+i=1
+i=1#i=2
+while i<=10:
+    total = total +i
+    i=i=1
+ print(total)
+ 
+#infinite loop
+ while True:
+print("hello world")
+
+#for loop with range function 
+for i in range (10):#0 to 9
+    print(f"hello world :{i}")
+
+
+    
